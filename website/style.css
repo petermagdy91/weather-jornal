@@ -1,0 +1,123 @@
+body {
+  background: #fffff8;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  background: #e7e7e7;
+  color: #09094b;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.holder {
+  margin-bottom: 30px;
+}
+
+#entryHolder {
+  background: rgba(59, 74, 107, 0.4);
+  padding: 20px;
+}
+
+#entryHolder span,
+.holder.entry .title {
+  font-weight: bold;
+}
+
+.holder.entry {
+  width: 50%;
+  text-align: center;
+}
+
+.holder.entry .title {
+  margin-bottom: 10px;
+}
+
+.headline {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+  display: block;
+  font-size: 27px;
+  text-align: center;
+}
+
+input {
+  display: block;
+  height: 60px;
+  width: 320px;
+  background: #fff;
+  color: #09094b;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  text-align: center;
+}
+
+button {
+  width: 400px;
+  height: 100px;
+  background: #3b4a6b;
+  color: #fff;
+  cursor: pointer;
+  font-size: 26px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  box-shadow: 2px 4px 5px #444;
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 36px;
+}
+
+textarea {
+  background: #fff;
+  color: #09094b;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border: 0;
+  text-align: center;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: #9090d3;
+  font-family: "Oswald", sans-serif;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #9090d3;
+  font-family: "Oswald", sans-serif;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #9090d3;
+  font-family: "Oswald", sans-serif;
+}
